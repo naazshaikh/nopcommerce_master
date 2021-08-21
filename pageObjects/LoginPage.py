@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 
-class Login:
+class LoginPage:
     textbox_username_id = "Email"
     textbox_password_id = "Password"
     button_login_xpath = "//div/button[@class='button-1 login-button']"
