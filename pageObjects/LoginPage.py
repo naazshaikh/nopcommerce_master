@@ -14,8 +14,8 @@ class LoginPage:
         self.driver.find_element_by_id(self.textbox_username_id).clear()
         self.driver.find_element_by_id(self.textbox_username_id).send_keys("admin@yourstore.com")
 
-    def setPassword(self,password):
-        self.driver.find_element_by_id(self.textbox_username_id).clear()
+    def setPassword(self, password):
+        self.driver.find_element_by_id(self.textbox_password_id).clear()
         self.driver.find_element_by_id(self.textbox_password_id).send_keys("admin")
 
     def clickLogin(self):
